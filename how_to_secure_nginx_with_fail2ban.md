@@ -86,9 +86,9 @@ sudo apt-get install fail2ban
 3. Restart Fail2ban
    After making changes to the configuration files, restart Fail2ban to apply the new settings:
 
-  ```bash
-  sudo systemctl restart fail2ban
-  ```
+     ```bash
+     sudo systemctl restart fail2ban
+     ```
 4. Verify Configuration
    To ensure that your jails are active and monitoring as expected, you can check the status with:
 
